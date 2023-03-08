@@ -3,13 +3,17 @@
     public class BankAccount
     {
         private decimal _balance = 5000;
-        public void Deposit(decimal amountToDeposit)
+        public virtual void Deposit(decimal amountToDeposit)
         {
-            _balance += amountToDeposit;
+            // Write the code you wish you had
+            // decimal bonusToAdd = _bonusCalculator.CalculateBonusFor(_balance, amountToDeposit);
+            _balance += amountToDeposit;// + bonusToAdd;
         }
 
         public decimal GetBalance()
         {
+            
+          
             return _balance;
         }
 
