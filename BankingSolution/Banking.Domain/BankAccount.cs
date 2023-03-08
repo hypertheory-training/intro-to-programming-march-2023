@@ -11,13 +11,16 @@
 
         public decimal GetBalance()
         {
-            return 5000;
+            return _balance;
 
         }
 
         public void Withdraw(decimal amountToWithdraw)
         {
-            throw new NotImplementedException();
+            if(amountToWithdraw > _balance)
+            {
+                _balance = amountToWithdraw;
+            }
         }
     }
 }

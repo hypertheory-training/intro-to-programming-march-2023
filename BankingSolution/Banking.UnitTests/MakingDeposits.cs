@@ -14,7 +14,7 @@ namespace Banking.UnitTests
             //given
             var account = new BankAccount();
             var openingBalance = account.GetBalance();
-            var amountToDeposit = 100M;
+
 
             //when
             account.Deposit(amountToDeposit);
