@@ -1,0 +1,14 @@
+Services:
+db:
+  image: postgres:12.13-alpine3.17
+  ports:
+    -5432:5432
+  enviroment:
+    - POSTGRES_PASSWORD=Tokyo-Joe138!
+  Volumes:
+    - db-dev-data:/var/lib-postgressql/data
+
+
+volumes:
+  db-dev-data:
+    # put this in folder on my hard drive        
