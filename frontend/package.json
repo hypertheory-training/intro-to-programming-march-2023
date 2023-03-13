@@ -24,6 +24,7 @@
     "@ng-bootstrap/ng-bootstrap": "^14.0.1",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
+    "environments": "^1.2.7",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
@@ -35,13 +36,13 @@
     "@angular/localize": "^15.2.0",
     "@cypress/schematic": "^2.5.0",
     "@types/jasmine": "~4.3.0",
+    "cypress": "latest",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~4.9.4",
-    "cypress": "latest"
+    "typescript": "~4.9.4"
   }
 }
