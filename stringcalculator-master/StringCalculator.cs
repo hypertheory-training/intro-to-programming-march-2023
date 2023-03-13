@@ -1,24 +1,16 @@
 ﻿
-using System.Reflection.Metadata.Ecma335;
-
 namespace StringCalculator;
 
-public class StringCalculator
+public class StringCalculatorIntereactionTests
 {
-
-  public int Add(string numbers)
+    [Fact]
+public void ResultAreLogged()
     {
-        if(numbers.Contains(","))
-        {
-            var CommaAt = 1;
+        //Given
+        var calculator = new StringCalculator();
 
-            var lhs = int.Parse(numbers.Substring(0, CommaAt));
-            var rhs = int.Parse(numbers.Substring(CommaAt + 1));
-            return lhs + rhs;
+}
+   
+}
 
-        }
-        return numbers == "" ? 0 : int.Parse(numbers);
-    }
-
-    }
 
