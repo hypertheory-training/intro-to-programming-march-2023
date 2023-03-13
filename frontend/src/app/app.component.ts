@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+// this is a decorator, just like attributes [HttpGet("/tacos")], [Fact]
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+
 }
