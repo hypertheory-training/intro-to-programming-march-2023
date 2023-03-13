@@ -13,7 +13,7 @@
   "editor.snippetSuggestions": "top",
   "workbench.editor.labelFormat": "medium",
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#ff0000"
   },
