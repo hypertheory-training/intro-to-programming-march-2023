@@ -1,10 +1,22 @@
 <section>
-    <h2>Help and Support</h2>
-    <p>This is where you go to get help and support for this application</p>
+    <h2>Help and Support</h2
+        ><p>This is where you go to get help and support for this application.</p>  
+         <div *ngIf="onCallDeveloper$ | async as contact"><div>
+            <p>
+     Support Person Name <span>{{ contact.name }}</span></p>
+        </div>
+<div>
+    <p>
+        Support Person Phone <span>{{ contact.phone }}</span>
+    </p>
+</div>
+<div>
+    <p>
+     Support Person Email <span>{{ contact.email }}</span>
+</p>
+</div>
+</div>
 
-    <div>
-        <div><p>Support Person Name <span>Jenny Schmidt</span></p></div>
-        <div><p>Support Person Phone <span>867-5309</span></p></div>
-        <div><p>Support Person Email <span>jenny@aol.com</span></p></div>
-    </div>
+
+
 </section>
